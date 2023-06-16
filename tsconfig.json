@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2021",
+        "outDir": "out",
+        "lib": [
+            "esnext"
+        ],
+        "sourceMap": true,
+        "rootDir": "src",
+        "esModuleInterop": true,
+        "strict": false,   
+        "forceConsistentCasingInFileNames": true
+    },
+    "exclude": [
+        "node_modules",
+        "test"
+    ]
+}

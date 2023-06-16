@@ -1,0 +1,5 @@
+const package = require('../dist/bundle.js')
+const helloInstance = new package.Hello('longwind')
+helloInstance.hi()
+helloInstance.hi()
+helloInstance.hi()
