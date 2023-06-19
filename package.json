@@ -1,13 +1,14 @@
 {
   "name": "ts-node-npm-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "a boilerplate about how to use typescript and webpack to publish npm package in nodejs",
-  "main": "index.js",
+  "main": "./dist/bundle.js",
   "scripts": {
     "build:dev": "webpack --node-env development",
     "build": "webpack --node-env production",
     "build:tsc": "npx tsc",
-    "test": "node ./test/index.js"
+    "test": "node ./test/index.js",
+    "publish": "npm publsh"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,7 @@
   },
   "dependencies": {
   },
+  "files":["dist","test"],
   "author": "longwind",
   "license": "ISC",
   "bugs": {
